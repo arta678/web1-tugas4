@@ -44,23 +44,23 @@
 	// ---------CEK KONDISI IPK----------
 		if ($ipk >= 3.75 && $ipk<= 4) {
 			$keterangan = "Cum Laude !";
-			$urlgambar = "gambar/up.png";
+			$urlgambar = "up.png";
 			$warna = "#fff";
 		}elseif ($ipk <= 3.74 && $ipk >= 3.50 ) {
 			$keterangan = "Sangat Memuaskan !";
-			$urlgambar = "gambar/up.png";
+			$urlgambar = "up.png";
 			$warna = "#fff";
 		}elseif ($ipk<=3.49 && $ipk>=3) {
 			$keterangan = "Memuaskan !";
-			$urlgambar = "gambar/up.png";
+			$urlgambar = "up.png";
 			$warna = "#fff";
 		}elseif($ipk<3 && $ipk>0){
 			$keterangan ="IPK Kurang Memuaskan!";
-			$urlgambar = "gambar/down.png";
+			$urlgambar = "down.png";
 			$warna = "#F8AEAE";
 		}else{
 			$keterangan = "Ups Sepertinya Anda salah Input Nilai!";
-			$urlgambar = "gambar/error.png";
+			$urlgambar = "error.png";
 			$warna = "#F8AEAE";
 		}
 
